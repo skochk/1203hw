@@ -1,0 +1,38 @@
+body{
+	background: url("https://images-na.ssl-images-amazon.com/images/I/61LU9w5addL._SX355_.jpg");
+	background: lightgreen; 
+
+}
+
+.container{
+	margin: 0 auto;
+text-align: center;
+	width: 90%;
+	margin-top: 50px;
+	position: relative;
+}
+
+.block{
+	border: 5px solid #60a760;
+	display: inline-block;
+	min-height: 500px;
+	min-width: 400px;
+	position: relative;
+		text-align: center;
+}
+
+.first, .last{
+	position: absolute;
+}
+
+.first{
+	left: 0;
+}
+
+.last{
+	right: 0;
+}
+
+.middle{
+	text-align: center;
+}
